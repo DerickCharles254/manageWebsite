@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin-block: 50px;
+}
+#navigation {
+  margin-inline: 100px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 10.9em;
+}
+.navLinks {
+  display: flex;
+  gap: 2em;
+}
+.navLinks a {
+  color: hsl(228, 39%, 23%);
+  text-decoration: none;
+}
+.cta {
+  padding-inline: 20px;
+  padding-block: 9px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 16px;
+  background-color: hsl(12, 88%, 59%);
+  border-radius: 50px;
+  width: fit-content;
+}
+.cta a {
+  text-decoration: none;
+  color: white;
+}
+#hero {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-inline: 100px;
+  margin-top: 120px;
+}
+.rightColumn {
+  width: fit-content;
+}
+.rightColumn img {
+  width: 100%;
+}
+.leftColumn h1 {
+  color: hsl(228, 39%, 20%);
+  font-size: 45px;
+  font-family: Be Vietnam;
+  font-weight: 700;
+  line-height: 1.1em;
+  width: 10em;
+}
+.leftText,
+.leftColumnmid p,
+.text p,
+.cards p {
+  color: hsl(227, 12%, 61%);
+  font-size: 16px;
+  margin-top: 25px;
+  line-height: 1.3em;
+  width: 18em;
+}
+.leftColumn .cta {
+  color: white;
+  width: 5em;
+  margin-top: 25px;
+  box-shadow: 0px 4px 4px hsl(12, 88%, 69%);
+}
+#mid {
+  margin-inline: 100px;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 40%;
+  margin-top: 80px;
+  width: fit-content;
+}
+.rightColumnmid,
+.leftColumnmid {
+  width: fit-content;
+  gap: 1em;
+}
+.leftColumnmid h1,
+#testimonials h1 {
+  color: hsl(228, 39%, 20%);
+  font-size: 35px;
+  font-family: Be Vietnam;
+  font-weight: 700;
+  line-height: 1.1em;
+  width: 12em;
+}
+.Rightcontent1,
+.Rightcontent2,
+.Rightcontent3 {
+  display: flex;
+  gap: 5%;
+  margin-top: 2em;
+}
+.serialNumber {
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+  font-size: 16px;
+  border-radius: 30px;
+  padding-inline: 1em;
+  padding-block: 0.3em;
+  width: fit-content;
+  height: 1em;
+  display: flex;
+  align-items: center;
+}
+#testimonials {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.sectionTitle {
+  display: flex;
+  justify-content: center;
+  margin-block-end: 80px;
+}
+.sectionTitle h1 {
+  color: hsl(228, 39%, 20%);
+  font-size: 35px;
+  font-family: Be Vietnam;
+  font-weight: 700;
+  line-height: 1.1em;
+  text-align: center;
+}
+.cards {
+  margin-block-end: 50px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 5%;
+}
+.card {
+  background-color: hsl(227, 12%, 98%);
+  border-radius: 15px;
+  text-align: center;
+  padding-inline: 1em;
+  padding-block-end: 1em;
+}
+.card img {
+  width: 5em;
+  position: relative;
+  top: -2.5em;
+}
+.card h5 {
+  color: hsl(228, 39%, 20%);
+  font-weight: 700;
+  margin-top: -30px;
+  margin-bottom: 2em;
+}
+.testimonialcta {
+  display: flex;
+  justify-content: center;
+}
+.inner {
+  color: white;
+  width: 5em;
+  box-shadow: 0px 4px 4px hsl(12, 88%, 69%);
+  background-color: hsl(12, 88%, 59%);
+  padding-inline: 1em;
+  padding-block: 0.5em;
+  border-radius: 30px;
+}
+.topPartFooter {
+  background-color: hsl(12, 88%, 59%);
+  padding-block: 50px;
+  padding-inline: 100px;
+}
+.textPartFooter {
+  width: 15em;
+  padding-inline-end: 10em;
+  color: white;
+  font-size: 30px;
+}
+.topPartFooter .cta {
+  color: hsl(12, 88%, 59%);
+  background-color: white;
+  width: fit-content;
+  padding-inline: 1em;
+  padding-block: 0.8em;
+  float: right;
+  margin-top: -65px;
+}
+.bottomPartFooter {
+  padding-inline: 100px;
+  background-color: hsl(228, 39%, 20%);
+  display: grid;
+  grid-template-columns: 20% 20% 20%;
+  gap: 20%;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+.leftColumnFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 50%;
+  width: 10em;
+  height: 10em;
+}
+.socialMedia {
+  display: flex;
+  gap: 10%;
+  width: fit-content;
+}
+.middleColumnFooter {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 40%;
+}
+.middleColumnFooter a {
+  text-decoration: none;
+  color: hsl(227, 12%, 61%);
+}
+.firstColumnFooter,
+.secondColumnFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 15%;
+  width: 105px;
+}
+.rightColumnFooter {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5em;
+}
+.searchBox input {
+  border: solid 1px;
+  border-radius: 30px;
+  padding: 0.5em;
+}
+.send {
+  border-radius: 30px;
+  height: 2em;
+  padding-inline: 1em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+}
+#footer {
+  margin-top: 80px;
+}
